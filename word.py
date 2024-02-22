@@ -7,7 +7,7 @@ numbers = [num for num in digits]
 symbols = [symbol for symbol in punctuation]
 lists = [lower_letters, upper_letters, numbers, symbols]
 
-input_string = input("Word: ")
+input_string = input("Input any word: ")
 string = ""
 index = 0
 
