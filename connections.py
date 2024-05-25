@@ -77,7 +77,7 @@ def main(page: ft.Page):
             if set(clicked) == set(word_set):
                 won = True
                 break
-            elif word_set == sets[last_key] and set(clicked) == set(word_set):
+            elif word_set == sets[last_key] and set(clicked) != set(word_set):
                 loss()
             else:
                 continue
