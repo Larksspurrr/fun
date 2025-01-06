@@ -1,2 +1,2 @@
 # REQUIRED MODULES FOR FILE(S). LIST EXPECTED TO EXPAND
-- flet (pitest.py)
+- flet (pitest.py, connections.py)
